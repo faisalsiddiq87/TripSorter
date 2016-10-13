@@ -1,0 +1,33 @@
+{
+   "data" :[   	
+	{
+		"source": "Gerona Airport",
+		"destination": "Stockholm",
+		"type": "Plane",
+		"transportNo": "SK455",
+		"seatInfo": "Gate 45B, seat 3A.",
+		"boardingInfo":"Baggage drop at ticket counter 344."
+	}, {
+		"source": "Barcelona",
+		"destination": "Gerona Airport",
+		"type": "Bus",
+		"transportNo": "",
+		"seatInfo": "",
+		"boardingInfo": ""
+	}, {
+		"source": "Madrid",
+		"destination": "Barcelona",
+		"type": "Train",
+		"transportNo": "78A",
+		"seatInfo": "45B",
+		"boardingInfo":	""
+	}, {
+		"source": "Stockholm",
+		"destination": "New York JFK",
+		"type": "Plane",
+		"transportNo": "",
+		"transportNo": "SK22",
+		"seatInfo": "Gate 22, seat 7B.",
+		"boardingInfo":"Baggage will be automatically transferred from your last leg."
+	} ]
+ }
