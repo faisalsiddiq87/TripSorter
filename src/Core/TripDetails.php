@@ -14,32 +14,32 @@ use app\Core\Plane;
 */
 class TripDetails
 {
-    const MESSAGE = 'You have arrived at your final destination. ';
+    	const MESSAGE = 'You have arrived at your final destination. ';
 	
 	protected $cardDetail = array();
-	
+
 	public function __construct($cardDetails)
 	{
 		$this->cardDetail = $cardDetails;
 	}
 	
 	/**
-     * Get cards value
-     *
-    */
+	 * Get cards value
+	 *
+	*/
 	public function getCards()
 	{
 		return $this->cardDetail;
 	}
 
-    /**
-     * Print message for train trip
-     *
-     * @return string
-    */
-    public function printTripDetails()
-    {
-        $cards = $this->getCards();
+	/**
+	 * Print message for train trip
+	 *
+	 * @return string
+	*/
+	public function printTripDetails()
+	{
+		$cards = $this->getCards();
 		foreach ($cards as $card) {
 			if ($card['type'] == "Train") {
 				$train = new Train($card['transportNo'], $card['source'], $card['destination'], $card['seatInfo']);	
@@ -56,7 +56,7 @@ class TripDetails
 			}
 		}
 		echo static::MESSAGE;
-		
+
 		return true;
-    }
+	}
 }
