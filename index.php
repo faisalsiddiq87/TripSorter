@@ -4,7 +4,7 @@ define("ROOT", __DIR__ ."/");
 //Define the path to sample json file
 $sampleFile = ROOT.'data/sampleData.json';
 //Autoload all the libraries for parsing json, sorting the trip details and printing trip details
-include ROOT.'/vendor/autoload.php'; 
+include ROOT.'vendor/autoload.php'; 
 //Load the JSON data object for parsing
 $parse = new app\Core\Parser($sampleFile); 
 //Parse the JSON data and convert to array
