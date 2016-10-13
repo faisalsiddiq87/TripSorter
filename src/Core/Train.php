@@ -35,10 +35,10 @@ class Train
     public function getMessage()
     {
 		// Add seat, arrival and departure info to message
-        $message = sprintf(static::MESSAGE, $this->transportNo, $this->departure, $this->arrival); 
-         // Add seat info to message
+		$message = sprintf(static::MESSAGE, $this->transportNo, $this->departure, $this->arrival); 
+		// Add seat info to message
 		$message = sprintf($message . static::MESSAGE_SEAT_ASSIGNMENT, $this->seatInfo);
-		
-        return $message;
+
+		return $message;
     }
 }
