@@ -17,7 +17,7 @@ class Parser
 		$this->jsonObject = $src;
 	}
 	
-	/**
+    /**
      * Load the json file contents and convert to array
      *
      * @return array
