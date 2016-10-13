@@ -18,28 +18,28 @@ class SortCards
 	}
 	
 	/**
-     * Set cards value
-     *
-    */
+	 * Set cards value
+	 *
+	*/
 	public function setCards($cards)
 	{
 		$this->cards = $cards;
 	}
 	
 	/**
-     * Get cards value
-     *
-    */
+	 * Get cards value
+	 *
+	*/
 	public function getCards()
 	{
 		return $this->cards;
 	}
 	
 	/**
-     * Sort all the boarding cards from source to destination
-     *
-     * @return array
-    */
+	 * Sort all the boarding cards from source to destination
+	 *
+	 * @return array
+	*/
 	public function sortAllCards() 
 	{
 		$arr = $this->cards;	
@@ -66,20 +66,20 @@ class SortCards
 	}
 	
 	/**
-     * Remove all the empty arrays created while sorting
-     *
-     * @return array
-    */
+	 * Remove all the empty arrays created while sorting
+	 *
+	 * @return array
+	*/
 	public function removeEmptyArrayElements() 
 	{
 		$this->cards = array_filter($this->getCards());
 	}
 	
 	/**
-     * Reindex the sorted arraya after empty arrays removal
-     *
-     * @return array
-    */
+	 * Reindex the sorted arraya after empty arrays removal
+	 *
+	 * @return array
+	*/
 	public function reIndexArrayElements() 
 	{
 		$this->cards = array_values($this->getCards());
