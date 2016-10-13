@@ -18,7 +18,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
 	
     protected $jsonFile = ROOT;
 	
-	/**
+    /**
      * setup the test and load main parser class
      *
     */
@@ -28,7 +28,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
         $this->parser = new Parser($this->jsonFile);
     }
 	
-	/**
+    /**
      * convert json string to array and check if its array
      *
     */
