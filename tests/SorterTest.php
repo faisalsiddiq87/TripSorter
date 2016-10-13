@@ -44,7 +44,7 @@ class SorterTest extends \PHPUnit_Framework_TestCase
 		
     );
 	
-	/**
+    /**
      * setup the test and load main parser and sort cards classes
      *
     */
@@ -56,7 +56,7 @@ class SorterTest extends \PHPUnit_Framework_TestCase
 		
     }
 	
-	/**
+    /**
      * sort the cards array and validate the output by the sorted array
      *
     */
@@ -67,7 +67,7 @@ class SorterTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($this->matchSortedArray($this->expectedTripCollection, $this->sortedArrayFromJSONFile));
     }
 	
-	/**
+    /**
      * validate the sorted array with actual array to see if its sorted correctly
      *
     */
