@@ -11,7 +11,7 @@ This project is developed for sorting boarding cards in proper sorting order in 
 
 ##Installation
 
-At the project root
+At the project root run
 
 ```
 composer update
@@ -19,7 +19,7 @@ composer update
 
 After composer installation 
 
-View the Algorithm output in browser via {YourServerURL}/index.php
+View the Algorithm output via **{YourServerURL}/index.php** url in browser.
 
 Check the test cases output via following commands in cmd prompt/git bash 
 
@@ -27,10 +27,10 @@ Check the test cases output via following commands in cmd prompt/git bash
 - bin/phpunit --bootstrap tests/bootstrap.php tests/SorterTest.php
 
 ##Screenshots
-View the images for sorting algorithm and test cases output <a href="">here</a>.
+View the images for sorting algorithm and test cases output <a href="https://github.com/faisalsiddiq87/propertyFinder/tree/master/screenshots">here</a>.
 
 ##Note
 I have broke the <a href="http://promo.propertyfinder.ae/devtest/">Trip Sorter Problem</a> in to source, destination and other seating info and created a JSON file for storing all the boarding cards information.
 All the implementation is done via OOP PHP as per the requirement without any framework usage (only phpunit framework was used for test cases). 
 All code done is properly commented and PSR-2 coding standards are followed.
-Also the name spacing approach and PSR-4 auto-loading standard is used for loading all files in project.
+Name spacing approach and PSR-4 auto-loading standard are used for loading all files in project.
