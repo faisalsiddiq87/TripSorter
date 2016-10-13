@@ -31,6 +31,6 @@ View the images for sorting algorithm and test cases output <a href="https://git
 
 ##Note
 I have broke the <a href="http://promo.propertyfinder.ae/devtest/">Trip Sorter Problem</a> in to source, destination and other seating info and created a JSON file for storing all the boarding cards information.
-All the implementation is done via OOP PHP as per the requirement without any framework usage (only phpunit framework was used for test cases). 
+All the implementation is done from scratch via OOP PHP as per the requirement without any framework usage (only phpunit framework was used for test cases). 
 All code done is properly commented and PSR-2 coding standards are followed.
 Name spacing approach and PSR-4 auto-loading standard are used for loading all files in project.
